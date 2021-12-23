@@ -16,6 +16,6 @@
 require "sinatra"
 
 get "/" do
-  "Hello World Yo!"
+  "Hello World Yo Yo! #{Time.now}"
 end
 # [END gae_flex_quickstart]
